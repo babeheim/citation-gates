@@ -112,7 +112,7 @@ d$row2_cat <- case_when(
 
 d$row3_cat <- case_when(
   d$reply_received & !d$data_received ~ 1,
-  d$reply_received & d$data_received ~ 2,
+  d$reply_received & d$data_received ~ 2
 )
 
 d$row4_cat <- case_when(
