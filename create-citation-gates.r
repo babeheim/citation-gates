@@ -166,7 +166,7 @@ par(mar = global_mar)
 # fun fact: unless par is set within the png command's boundaries, it wont work!
 
 plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-  axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+  axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
 axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -184,7 +184,7 @@ png("./figures/keyframe_1.png", height = 3.5, width = 5, units = "in", res = 200
 par(mar = global_mar)
 
 plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-  axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+  axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
 axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -204,7 +204,7 @@ png("./figures/keyframe_2.png", height = 3.5, width = 5, units = "in", res = 200
 par(mar = global_mar)
 
 plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-  axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+  axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
 axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -225,7 +225,7 @@ png("./figures/keyframe_3.png", height = 3.5, width = 5, units = "in", res = 200
 par(mar = global_mar)
 
 plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-  axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+  axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
 axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -247,7 +247,7 @@ png("./figures/keyframe_4.png", height = 3.5, width = 5, units = "in", res = 200
 par(mar = global_mar)
 
 plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-  axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+  axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
 axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -271,7 +271,7 @@ png("./figures/keyframe_5.png", height = 3.5, width = 5, units = "in", res = 200
 par(mar = global_mar)
 
 plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-  axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+  axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
 axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -319,7 +319,7 @@ for(i in 1:n_frames){
   par(mar = global_mar)
 
   plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-    axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+    axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
   axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -374,7 +374,7 @@ for(i in 1:n_frames){
   par(mar = global_mar)
 
   plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-    axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+    axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
   axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -429,7 +429,7 @@ for(i in 1:n_frames){
   par(mar = global_mar)
 
   plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-    axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+    axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
   axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -485,7 +485,7 @@ for(i in 1:n_frames){
   par(mar = global_mar)
 
   plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-    axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+    axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
   axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
@@ -542,7 +542,7 @@ for(i in 1:n_frames){
   par(mar = global_mar)
 
   plot(1, 1, xlim = c(1955, 2022), ylim = c(0, ymax),
-    axes = FALSE, keyframe.plot = FALSE, xlab = "year of publication", ylab = "")
+    axes = FALSE, frame.plot = FALSE, xlab = "year of publication", ylab = "")
 
   axis(1, at = c(seq(1960, 2010, by = 10), 2018))
 
