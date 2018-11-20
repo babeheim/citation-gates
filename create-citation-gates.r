@@ -2,7 +2,7 @@
 
 rm(list = ls())
 
-library(tictoc) # to time things out; each gif takes 1-3 minutes
+library(tictoc) # each gif takes 1-3 minutes to render
 library(dplyr)  # for case_when calls
 library(tweenr) # for animations
 
